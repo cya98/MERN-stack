@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  background-color: wheat;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  grid-gap: 1rem;
+}
+.list {
+  background-color: rgb(205, 138, 138);
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.register {
+  background-color: pink;
+  padding: 1rem;
+}
+
+.input {
+  margin: 0.5rem;
+}
+.button {
+  background-color: burlywood;
+  margin: 0.5rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
